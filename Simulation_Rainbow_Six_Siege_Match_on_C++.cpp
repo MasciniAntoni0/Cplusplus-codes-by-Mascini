@@ -61,8 +61,8 @@ int main(){
     } 
 
     std::cout << "The final results." << std::endl;
-    std::cout << AttackTeam << ": " << AttacksPoints << "Round won." << std::endl;
-    std::cout << DefenseTeam << ": " << DefensePoints << "Round won." << std::endl;
+    std::cout << AttackTeam << ": " << AttacksPoints << " round won." << std::endl;
+    std::cout << DefenseTeam << ": " << DefensePoints << " round won." << std::endl;
 
     if(AttacksPoints > DefensePoints){
         std::cout << "The attack team has winned the match!" << std::endl;
@@ -72,4 +72,5 @@ int main(){
     }
 
     return 0;
+
 }
